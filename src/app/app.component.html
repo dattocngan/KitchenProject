@@ -1,0 +1,118 @@
+<header id="header" class="site-header">
+    <div class="wrapper-header-top">
+        <div class="logo">
+            <a [routerLink]="['/']" routerLinkActive="router-link-active">
+                <!-- logo -->
+                <img src="../assets/banner-logo.png" alt="">
+            </a>
+        </div>
+    </div>
+    <nav class="wapper-menu">
+        <div class="main-menu">
+            <ul>
+                <li><a [routerLink]="['/home']" routerLinkActive="router-link-active" >Home</a></li>
+                <li><a [routerLink]="['/manuals']" routerLinkActive="router-link-active">Manuals</a></li>
+                <li><a [routerLink]="['/expert-tips']" routerLinkActive="router-link-active">Expert Tips</a></li>
+                <li><a [routerLink]="['/register-complain']" routerLinkActive="router-link-active">Register Complain</a></li>
+                <li><a [routerLink]="['/feedback']" routerLinkActive="router-link-active">Feedback</a></li>
+                <li><a [routerLink]="['/contact']" routerLinkActive="router-link-active">Contact</a></li>
+                <li><a [routerLink]="['/location']" routerLinkActive="router-link-active">Location</a></li>
+            </ul>
+        </div>
+    </nav>
+</header>
+
+<router-outlet></router-outlet>
+
+<footer id="footer" class="site-footer">
+    <div class="footer-top">
+        <div class="row">
+            <div class="col-md-3">
+                <div class="footer-widget">
+                    <h2 class="footer-title-widget">CAM KẾT BÁN HÀNG</h2>
+                    <div class="content-footer-widget">
+                        <ul>
+                            <li><a>Khách hàng là thượng đế</a></li>
+                            <li><a>Sản Phẩm chính hãng</a></li>
+                            <li><a>Bảo hành lâu dài</a></li>
+                            <li><a>Minh bạch về giá</a></li>
+                            <li><a>Không phát sinh phụ phí</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="footer-widget">
+                    <h2 class="footer-title-widget">HỖ TRỢ KHÁCH HÀNG</h2>
+                    <div class="content-footer-widget">
+                        <ul>
+                            <li><a>Khách hàng là thượng đế</a></li>
+                            <li><a>Sản Phẩm chính hãng</a></li>
+                            <li><a>Bảo hành lâu dài</a></li>
+                            <li><a>Minh bạch về giá</a></li>
+                            <li><a>Không phát sinh phụ phí</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="footer-widget widget-info-box">
+                    <h2 class="footer-title-widget">LIÊN HỆ MUA HÀNG</h2>
+                    <div class="content-footer-widget">
+                        <ul class="if-round">
+                            <li>
+                                <div class="if-icon"><i class="fa fa-map-marker"></i></div>
+                                <div class="if-content">
+                                    <h3><a title="ADDRESS" href="#">Địa chỉ</a></h3>
+                                    <p>1908 Street Name, City Name, United States</p>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="if-icon"><i class="fa fa-phone"></i></div>
+                                <div class="if-content">
+                                    <h3><a title="PHONE" href="#">Số điện thoại</a></h3>
+                                    <p>+1 (008) 789 77 35</p>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="if-icon"><i class="fa fa-envelope-o"></i></div>
+                                <div class="if-content">
+                                    <h3><a title="EMAIL" href="#">Email</a></h3>
+                                    <p>info@orsontheme.com</p>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="if-icon"><i class="fa fa-clock-o"></i></div>
+                                <div class="if-content">
+                                    <h3>
+                                        <a title="WORKING DAYS/HOURS" href="#">Giờ làm việc</a>
+                                    </h3>
+                                    <p>Mon - Sun / 9:00 AM - 8:00 PM</p>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="footer-widget connect-us">
+                    <h2 class="footer-title-widget">KẾT NỐI VỚI CHÚNG TÔI</h2>
+                    <div class="content-footer-widget">
+                        <ul>
+                            <a href=""><i class="fa fa-facebook"></i></a>
+                            <a href=""><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end footer top -->
+    <div class="footer-bootom">
+        <div class="copy-right">
+            <p>Bản quyền thuộc ..............</p>
+        </div>
+    </div>
+    <!-- .container -->
+</footer>
+<!-- site-footer -->
